@@ -100,37 +100,37 @@ Sticky на запись и удаление файлов.
 
 1. От имени пользователя guest создал файл simpleid (рис. @fig:001, @fig:002).
 
-![Создание файла](image/lab5_1.png){#fig:001 width=70%}
+![Создание файла](image/lab05_1.png){#fig:001 width=70%}
 
-![Редакция файла](image/lab5_2.png){#fig:002 width=70%}
+![Редакция файла](image/lab05_2.png){#fig:002 width=70%}
 
 2. Cоздал файл simpleid2 (рис. @fig:003, @fig:004).
 
-![Создание файла](image/lab5_6.png){#fig:003 width=70%}
+![Создание файла](image/lab05_6.png){#fig:003 width=70%}
 
-![Редакция файла](image/lab5_3.png){#fig:004 width=70%}
+![Редакция файла](image/lab05_3.png){#fig:004 width=70%}
 
 3. От имени суперпользователя выполнил нужные команды (рис. @fig:005).
 
-![Редакция файла](image/lab5_4.png){#fig:005 width=70%}
+![Редакция файла](image/lab05_4.png){#fig:005 width=70%}
 
 4. Создал readfile.c, изменил права доступа (рис. @fig:006, @fig:007).
 
-![Файл readfile](image/lab5_7.png){#fig:006 width=70%}
+![Файл readfile](image/lab05_7.png){#fig:006 width=70%}
 
-![Изменение прав доступа](image/lab5_8.png){#fig:007 width=70%}
+![Изменение прав доступа](image/lab05_8.png){#fig:007 width=70%}
 
 5. Прочитал с помощью readfile etc/shadow (рис. @fig:008).
 
-![Изменение прав доступа](image/lab5_10.png){#fig:008 width=70%}
+![Изменение прав доступа](image/lab05_10.png){#fig:008 width=70%}
 
 6. Исследовал sticky bit (рис. @fig:009, @fig:010, @fig:011).
 
-![Пользователь guest](image/lab5_st1.png){#fig:009 width=70%} 
+![Пользователь guest](image/lab05_s1.png){#fig:009 width=70%} 
 
-![Пользователь guest2](image/lab5_st2.png){#fig:010 width=70%} 
+![Пользователь guest2](image/lab05_s2.png){#fig:010 width=70%} 
 
-![Пользователь root](image/lab5_st3.png){#fig:011 width=70%} 
+![Пользователь root](image/lab05_s3.png){#fig:011 width=70%} 
 
 # Выводы
 
