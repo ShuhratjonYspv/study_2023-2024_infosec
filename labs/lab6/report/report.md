@@ -117,7 +117,7 @@ Apache, также известный как Apache HTTP Server, - это сво
 
 1. Установил веб-сервис apache для дальнейшей работы (рис. @fig:001).
 
-![Запуск сервера](image01.png){#fig:001 width=70%}
+![Запуск сервера](image/01.png){#fig:001 width=70%}
 
 2. В конфигурационном файле /etc/httpd/httpd.conf задал параметр ServerName (рис. @fig:002).
 
