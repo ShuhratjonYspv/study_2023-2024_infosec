@@ -121,21 +121,17 @@ Apache, также известный как Apache HTTP Server, - это сво
 
 2. В конфигурационном файле /etc/httpd/httpd.conf задал параметр ServerName (рис. @fig:002).
 
-![Параметр ServerName](image02.png){#fig:002 width=70%}
+![Параметр ServerName](image/02.png){#fig:002 width=70%}
 
 3. Вошел в систему с полученными учётными данными и убедился, что
 SELinux работает в режиме enforcing политики targeted с помощью команд getenforce и sestatus. Запустил веб-сервис (рис. @fig:003, @fig:004). 
 
-![Команды getenforce и sestatus](image03.png){#fig:003 width=70%}
-5. Посмотрел текущее состояние переключателей SELinux (рис. @fig:006)
+![Команды getenforce и sestatus](image/03.png){#fig:003 width=70%}
+4. Посмотрел текущее состояние переключателей SELinux (рис. @fig:006)
 
-![Cостояние переключателей SELinux](image06.png){#fig:006 width=70%}
+![Cостояние переключателей SELinux](image/06.png){#fig:006 width=70%}
 
-6. Посмотрел статистику по политике с помощью команды seinfo (рис. @fig:007)
-
-![Статистика по политике](image/l6_7.png){#fig:007 width=70%}
-
-10. Открыл файл через 81 порт (рис. @fig:013, @fig:014, @fig:015)
+5. Открыл файл через 81 порт (рис. @fig:013, @fig:014, @fig:015)
 
 ![Изменение порта](image13.png){#fig:013 width=70%}
 
